@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example.excel</groupId>
-	<artifactId>excel-demo-be</artifactId>
+	<artifactId>excel</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>excel-demo-be</name>
 	<description>Demo project for Spring Boot</description>
@@ -70,6 +70,12 @@
 			<artifactId>poi-ooxml</artifactId>
 			<version>5.2.3</version>
 		</dependency>
+		<dependency>
+			<groupId>com.github.javafaker</groupId>
+			<artifactId>javafaker</artifactId>
+			<version>1.0.2</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
